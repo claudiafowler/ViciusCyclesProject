@@ -1,0 +1,123 @@
+/*Style sheet created by: Claudia Fowler, 03/22/2021 styles.css */
+
+/*css reset style rule*/
+body, header, nav, main, footer, h1, div, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+/*style for body and images */
+body {
+    background-color: #20374A;
+}    
+img {
+    width: 100%;
+    height: auto;
+    display:block;
+    max-width: 500px;
+}
+.center {
+    display:block;
+    margin-left:auto;
+    margin-right: auto;
+    width: 50%;
+}
+/*style for container centers the page and element width*/
+#container {
+    width:70%;
+    margin-left: auto;
+    margin-right: auto;
+}
+/* style rules for header */
+header{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align:center;
+    font-weight: bold;
+}
+h1 {
+    color:#fff;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding-top: 3em;
+    padding-bottom: 1em;
+    text-align:center
+}
+/* style rules for navigation area */
+nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size:1em;
+    color: #fff;
+    font-weight: bold;
+    text-align: center;
+    margin-top:3em;
+}
+nav ul {
+    list-style-type: none;
+    padding:0%;
+    margin:0;
+    text-align: center;
+    }
+nav li {
+    background-color: #20374A;
+    margin: 0.2em;
+    padding: 0.2em;
+}  
+/* unvisited link */
+a:link {
+    color: #fff;
+    text-decoration: none;
+}
+/* visited link */
+  a:visited {
+    color: beige;
+    text-decoration: none;
+}
+/* mouse over link */
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+  
+  /* selected link */
+  a:active {
+    color: blue;
+    text-decoration: underline;
+}
+.desktop {
+    display: none;
+}
+/* style rules for main content */
+main {
+    clear:left;
+    background-color:#20374A;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 1em;
+    text-align:center;
+    margin: 0%;
+    padding:1em;
+    color:#fff;
+}
+p { text-align:center;
+    color: #fff;
+}    
+h2 {text-align:center;
+    color:#fff
+}
+div {text-align: center;
+}
+ul {display: inline-block; 
+    text-align:left;
+}
+/* style rules for footer content */
+footer {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 0.85em;
+    background-color: #20374A;
+    color:#fff;
+    text-align:center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 0%;
+    padding-left: 0%;
+}
